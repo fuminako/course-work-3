@@ -1,0 +1,24 @@
+### Добавить вопрос по Java
+GET http://localhost:8080/exam/java/add?question=QuestionText1&answer=QuestionAnswer1
+### Добавить вопрос по Java
+GET http://localhost:8080/exam/java/add?question=QuestionText2&answer=QuestionAnswer2
+### Добавить вопрос по Java
+GET http://localhost:8080/exam/java/add?question=QuestionText3&answer=QuestionAnswer3
+### Добавить вопрос по Java
+GET http://localhost:8080/exam/java/add?question=QuestionText4&answer=QuestionAnswer4
+
+### Удалить вопрос по Java
+GET http://localhost:8080/exam/java/remove?question=QuestionText1&answer=QuestionAnswer1
+### Удалить вопрос по Java
+GET http://localhost:8080/exam/java/remove?question=QuestionText3&answer=QuestionAnswer3
+
+### Получить все вопросы по Java
+GET http://localhost:8080/exam/java
+
+### Получить вопросы
+GET http://localhost:8080/exam/4
+### Получить вопросы
+GET http://localhost:8080/exam/2
+### Получить вопросы
+GET http://localhost:8080/exam/5
+
